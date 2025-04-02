@@ -1,0 +1,17 @@
+{
+    "testLocators":
+    {
+    "username": "//input[@id='user-name']",
+    "password": "//input[@id='password']",
+    "btn_login": "//input[@id='login-button']",
+    "logo_homepage": "//*[@class='app_logo' and contains(text(),'Swag Labs')]",
+    "productLabel": "//*[@data-test='title' and contains(text(),'Products')]",
+    "productName": "//*[@data-test='inventory-item-name']",
+    "productPrice": "//*[@class='inventory_item_price']",
+    "btn_addToCart": "//button[contains(@id,'add-to-cart')][1]",
+    "btn_cart": "//a[@class='shopping_cart_link']",
+    "hamburgerMenu": "//button[@id='react-burger-menu-btn']",
+    "btn_logout": "//a[@id='logout_sidebar_link']",
+    "loginError": "//*[@data-test='error']"
+    }
+}

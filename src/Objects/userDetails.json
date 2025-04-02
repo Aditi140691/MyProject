@@ -1,0 +1,15 @@
+{
+    "testUsers":
+ {
+  "Username1": "standard_user",
+  "Username2": "locked_out_user",
+  "Username3": "problem_user",
+  "Username4": "performance_glitch_user",
+  "Username5": "error_user",
+  "Username6": "visual_user"
+},
+"testPwd":
+{
+  "password": "secret_sauce"
+}
+}

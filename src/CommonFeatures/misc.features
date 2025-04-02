@@ -1,0 +1,16 @@
+Feature: Reusable functions
+
+Scenario: Reusable functions
+
+* def appendToCsv =
+  """
+    function(input1, input2) {
+        var FileWriter = Java.type('java.io.FileWriter');
+        var BufferedWriter = Java.type('java.io.BufferedWriter');
+        var fw = new FileWriter('classpath.csv', true);
+        var writer = new BufferedWriter(fw);
+        writer.newLine();
+        writer.write(input1 + ',' + input2);
+        writer.close();
+      }
+  """
